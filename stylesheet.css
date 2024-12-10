@@ -1,0 +1,70 @@
+/* Modification de tous les éléments */
+*{box-sizing: border-box;}
+/* Focus = passage souris sur éléments */
+*:focus{outline: none;}
+
+/* Modif tous les éléments */
+body{
+    font-family: Arial;
+    background-color:#3498db;
+    padding: 200px; /* Marge */
+    display: flex;
+    justify-content: center;
+    }
+    /* Modif fond formulaire */
+.login-form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+/* Modif inputs */
+.control-form{
+    text-align: center;
+    background-color: #fff ;
+    border: 2px solid transparent;}
+/* Modif input "login" */
+#login-name{
+    background-color: #d5d8dc;
+    border-color: transparent;
+    text-align: center;
+    font-size: medium;
+    width: 170px;
+    padding: 5px;
+    border-radius: 10px;
+/* Modif input "password" */
+}
+#login-pass{
+    background-color: #d5d8dc;
+    border-color: transparent;
+    text-align: center;
+    font-size: medium;
+    width: 170px;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* Modif boutons envoi & mdp oublié */
+.submit-form{
+    text-align: center;
+    justify-content: center;
+}
+/* Modif envoi */
+#send-form{
+    margin-top: 10px;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #58d68d;
+    box-shadow:0px 5px 10px  #28b463 ;
+}
+/* Modif mdp oublié */
+#forgotten-pass{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #d35400 ;
+    box-shadow:0px 3px 15px #d35400;
+}

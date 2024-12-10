@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>TP Formulaire</title>
+</head>
+<body>
+    <!-- Formulaire -->
+    <div class="login-form">
+        <h1>Identification</h1>
+        <form action="manage.php">
+        <!-- Option formulaire -->
+        <div class="login-screen">
+            <!-- Inputs formulaire -->
+            <div class="control-form">
+                <!-- Login input -->
+                <input type="text" placeholder="Login" class="all-form" value="" id="login-name" minlength="1" maxlength="25">
+            </div>
+            <div class="control-form">
+                <!-- Password input -->
+                <input type="text" placeholder="Password" class="all-form" value="" id="login-pass" minlength="1" maxlength="25"> 
+            </div>
+            <!-- Boutons envoi & mdp oublié -->
+            <div class="submit-form">
+                <!-- Bouton envoi -->
+                <input type="submit" value="Envoyer" id="send-form">
+            </div>
+            <div class="submit-form">
+                <!-- Bouton mdp oublié -->
+                <input type="submit" value="Mot de passe oublié" id="forgotten-pass">
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
